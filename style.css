@@ -1,0 +1,919 @@
+body{
+    margin:0%;
+    background-color:rgb(250,249,250);
+}
+.navbar{
+    padding:0.8%;
+    text-align: center;
+    position:sticky;
+    top:0;
+    background-color: white;
+}
+.navbar img{
+    vertical-align: middle;
+    width:170px;
+    height:70px;
+    margin-right:2.9px !important;
+}
+.navbar a{
+    margin-left:1.6%;
+    text-decoration:none;
+    color:black;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:1.1rem;
+    display:inline-block;
+    margin-right:1%;
+    margin:1.1%;
+}
+#data{
+    margin-right:2.6%;
+}
+#sign{
+    margin-left: 9% !important;
+    background-color: rgb(56, 153, 201);
+    border-radius: 30px;
+    font-size:1rem;
+    padding:0.2% 1%;
+    color:white !important;
+}
+#sign img{
+    vertical-align: center;
+    width:32px;
+    height:43px;
+    border-color: rgb(3, 3, 38);
+}
+.wallet{
+    text-align:center;
+    background-color: rgb(228, 226, 226);
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-top:0.1%;
+    padding-bottom: 0.1%;
+}
+.sec1{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 6%;
+    padding-bottom:6% ;
+}
+.sec1 img{
+    width:35%;
+    height:44%;
+}
+.description img{
+    width:15%;
+    height:16%;
+}
+.description h1{
+    font-size:3.6rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.description p{
+    font-size:1.5rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.description a{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    border-radius: 40px ;
+    padding:3.5%;
+    justify-content: space-between;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.description{
+    padding-left:8.5%;
+    margin-left:4%;
+    margin:1%;
+
+}
+.bills{
+    display:flex;
+    justify-content: space-evenly;
+    text-align:left;
+}
+.bills h4{
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size:1rem;
+}
+.bills a{
+    text-decoration: none;
+    color:white;
+}
+.sec2{
+    background-color: rgb(15, 183, 250);
+    color:white;
+    padding:4% 4%;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+.sec2 h1{
+    font-size:2.3rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-left:6.5%;
+}
+.booking{
+    display:flex;
+    justify-content: space-evenly;
+    text-align:left;
+    margin-left:7%;
+}
+.booking h2{
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size:1rem;
+}
+.booking img{
+    border-radius: 100%;
+    width:38%;
+    height:50%;
+}
+.booking a{
+    text-decoration: none;
+    color:white;
+}
+.sec3{
+    background-color: rgb(41, 52, 134);
+    color:white;
+    padding:4% 4%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+.sec3 h1{
+    font-size:2.3rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-left:6.5%;
+}
+.seca{
+    display:flex;
+    justify-content: space-between;
+}
+.seca img{
+    width:45%;
+    height:73%;
+}
+.load a{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    border-radius: 40px ;
+    padding:3.5%;
+    justify-content: space-between;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.seca h1{
+    font-size:2.5rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.load p{
+    font-size:1.1rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.load{
+    padding-left:8.5%;
+    margin-left:4%;
+    margin:1%;
+
+}
+.side img{
+    width:15%;
+    height:16%;
+}
+.side{
+    display:flex;
+    justify-content: space-between;
+}
+.side h3{
+    margin-right:70%;
+}
+.seca{
+    margin:12% 12%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: white;
+    border-radius: 1%;
+    padding-top:4.5%;
+    padding-bottom:4.5% ;
+    padding-right: 2%;
+}
+#heading{
+    font-size:3.1rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-left:12%;
+    margin-top:8%;
+}
+.secb{
+    display:flex;
+    justify-content: space-between;
+}
+.secb img{
+    width:50%;
+    height:85%;
+}
+.upi a{
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    border-radius: 40px ;
+    padding:3.5%;
+    justify-content: space-between;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.secb h1{
+    font-size:2.5rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.upi p{
+    font-size:1.1rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.upi{
+    padding-left:8.5%;
+    margin-left:4%;
+    margin:1%;
+}
+.rs img{
+    width:15%;
+    height:16%;
+}
+.rs{
+    display:flex;
+    justify-content: space-between;
+}
+.rs h3{
+    margin-right:60%;
+}
+.secb{
+    margin:12% 12%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: white;
+    border-radius: 1%;
+    padding-top:4.5%;
+    padding-bottom:4.5% ;
+    padding-right: 2%;
+}
+.secc{
+    display:flex;
+    justify-content: space-between;
+}
+.secc img{
+    width:40%;
+    height:52%;
+}
+.post a{
+    text-decoration: none;
+    background-color: rgb(20, 30, 59);
+    color:white;
+    border-radius: 40px ;
+    padding:3.5%;
+    justify-content: space-between;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.secc h1{
+    font-size:2.5rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.post p{
+    font-size:1.1rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.post{
+    padding-left:8.5%;
+    margin-left:4%;
+    margin:1%;
+}
+.post img{
+    width:33%;
+    height:17%;
+}
+.secc{
+    margin:12% 12%;
+    margin-top: 2%;
+    margin-bottom: 0.3%;
+    background-color: white;
+    border-radius: 1%;
+    padding-top:4.5%;
+    padding-bottom:4.5% ;
+    padding-right: 2%;
+}
+.secd{
+    margin-left:12%;
+    margin-right:10%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    background-color: rgb(250, 249, 250);
+    border-radius: 1%;
+    padding-top:4.5%;
+    padding-bottom:4.5% ;
+    padding-right: 2%;
+    display:flex;
+    justify-content: space-between;
+}
+#secd1{
+    background-color: white;
+    margin-right:6%;
+    margin-left:0%;
+    padding-top:6%;
+    padding-left:6%;
+    border-radius: 3%;
+}
+#secd1 img{
+    width:42%;
+    height:14%;
+}
+#card img{
+    width:92%;
+    height:96%;
+}
+#secd1 h1{
+    color:black;
+    font-size:2.7rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#secd1 p{
+    color:black;
+    font-size:1.2rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.secd a{
+    text-decoration: none;
+}
+#secd2{
+    background-color: white;
+    padding-top:10.2%;
+    padding-left:6%;
+    border-radius: 3%;
+}
+#secd2 img{
+    width:42%;
+    height:4%;
+}
+#ccard img{
+    width:95%;
+    height:92%;
+}
+#secd2 h1{
+    color:black;
+    font-size:2.7rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#secd2 p{
+    color:black;
+    font-size:1.2rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.sec5{
+    background-color: white;
+    padding:12% 12%;
+    padding-top:6%;
+    padding-bottom: 6%;
+}
+.matter{
+    display:flex;
+    justify-content: space-between;
+}
+.sec5 img{
+    width:40%;
+    height:65%;
+}
+#bank img{
+    width:42.5%;
+    height:5.4%;
+}
+#bank a{
+    text-decoration: none;
+    background-color: rgb(20, 30, 59);
+    color:white;
+    border-radius: 40px ;
+    padding:3.5%;
+    justify-content: space-between;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.sec5 h1{
+    font-size:3.2rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#bank h2{
+    font-size:2.2rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#bank p{
+    font-size:1.3rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#tax a{
+    text-decoration: none;
+    background-color: rgb(21, 37, 87);
+    color:white;
+    border-radius: 40px ;
+    padding:3.5%;
+    justify-content: space-between;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.sec6{
+    display:flex;
+    justify-content: space-evenly;
+    background-image: url("images/33.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top:6%;
+    padding-bottom: 10%;
+}
+.sec6 img{
+    width:30%;
+    height:30%;
+}
+#tax img{
+    width:38%;
+    height:17%;
+}
+#tax h1{
+    font-size:2.7rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#tax p{
+    font-size:1.1rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.sec7{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:6%;
+    padding-bottom: 10%;
+    padding-right:10%;
+    padding-left: 10%;
+    background-color: white;
+}
+.sec7 img{
+    width:35%;
+    height:35%;
+}
+#buy img{
+    width:27%;
+    height:16%;
+}
+#buy a{
+    text-decoration: none;
+    background-color: rgb(21, 37, 87);
+    color:white;
+    border-radius: 40px ;
+    padding:3.5%;
+    justify-content: space-between;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#buy h1{
+    font-size:2.7rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#buy p{
+    font-size:1.1rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.sec8{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top:6%;
+    padding-bottom: 10%;
+    padding-left:4%;
+    padding-right:4%;
+}
+.sec8 img{
+    width:28%;
+    height:28%;
+}
+#loan img{
+    width:33%;
+    height:14%;
+}
+#loan a{
+    text-decoration: none;
+    background-color: rgb(21, 37, 87);
+    color:white;
+    border-radius: 40px ;
+    padding:3.5%;
+    justify-content: space-between;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#loan h1{
+    font-size:2.5rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#loan p{
+    font-size:1.1rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.sec9{
+    padding-left:13%;
+    padding-top:5%;
+}
+.sec9 h1{
+    font-size:3rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#sec10{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 6%;
+    padding-top:6%;
+    padding-left:6%;
+    background-color: rgb(250, 249, 250);
+    margin-left:12%;
+    margin-right:12%;
+    margin-bottom:4%;
+    border-radius: 1.2%;
+}
+#sec10 img{
+    width:40%;
+    height:20%;
+}
+#grow a{
+    text-decoration: none;
+    background-color: rgb(21, 37, 87);
+    color:white;
+    border-radius: 40px ;
+    padding:3.5%;
+    justify-content: space-between;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#grow h1{
+    font-size:2.5rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#grow p{
+    font-size:1.1rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#sec11{
+    display:flex;
+    justify-content: space-between;
+    padding-bottom: 6%;
+    padding-top:6%;
+    padding-left:6%;
+    background-color: rgb(250, 249, 250);
+    margin-left:12%;
+    margin-right:12%;
+    margin-bottom:13%;
+    border-radius: 1.2%;
+}
+#sec11 img{
+    width:40%;
+    height:30%;
+}
+#shop a{
+    text-decoration: none;
+    background-color: rgb(21, 37, 87);
+    color:white;
+    border-radius: 40px ;
+    padding:3.5%;
+    justify-content: space-between;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#shop h1{
+    font-size:2.5rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#shop p{
+    font-size:1.1rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#sec12 h1{
+    font-size:3rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#sec12{
+    padding-left:13%;
+    padding-bottom: 1%;
+}
+#sec13{
+    display:flex;
+    justify-content: space-between;
+    padding-left:6%;
+    padding-right: 6%;
+    padding-bottom: 20%;
+    text-align: center;
+}
+#sec13 h1{
+    font-size:2rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#sec13 p{
+    font-size:1.1rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+#sec13 a{
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color:black;
+    font-size: 1.1rem;
+}
+#sec13 img{
+    width:58%;
+    height:45%;
+}
+.sec14{
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 6%;
+    padding-bottom: 10%;
+}
+#get img{
+    width: 50%;
+    height:25%;
+}
+#get p{
+    font-size:1.1rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#get a{
+    font-size:1.7rem;
+    text-decoration: none;
+    color: deepskyblue;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#spl1{
+    width:65%;
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+}
+#spl1 img{
+    width: 87%;
+    height:60%;
+    padding:3.5%;
+}
+#spl1 h3{
+    color: white;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.sec15{
+    display:flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+    padding-right: 6%;
+    padding-bottom: 10%;
+}
+#travel img{
+    width: 50%;
+    height:25%;
+}
+#travel p{
+    font-size:1.1rem;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#travel a{
+    font-size:1.7rem;
+    text-decoration: none;
+    color: deepskyblue;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#spl2{
+    width:65%;
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+}
+#spl2 img{
+    width: 43%;
+    height:25%;
+    padding:3.5%;
+    padding-top: 10%;
+}
+#spl2 h3{
+    color: white;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+#spl2 p{
+    color: white;
+    font-family: 'Geologica', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    padding:1.8%;
+}
+.div18 h3{
+    padding-top:5%;
+    padding-left:6%;
+    padding-right:2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.div18{
+    display:flex;
+}
+.div18 a{
+    padding-top:6%;
+    padding-right:1%;
+}
+.div18 div{
+    display:flex;
+    padding-top:6.5%;
+    padding-left:30%;
+    font-size:1.5rem;
+}
+.div18 div a{
+    color:grey;
+    padding-left:70%;
+}
+.line{
+    padding:0% 40.1%;
+    border-width:1px;
+    border-color:rgba(0,0,0,0.4);
+    border-bottom-style:solid;
+    margin-left:1%;
+}
+.div19{
+    padding:6% 2% 10% 5%;
+}
+.l1{
+    margin:0%;
+    padding:0.5%;
+    background-color:rgb(2, 191, 253);
+}
+.l2{
+    margin:0%;
+    padding:0.5%;
+    background-color:rgb(1, 1, 110);
+}
